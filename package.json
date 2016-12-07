@@ -1,5 +1,5 @@
 {
-  "name": "nodeJS MVC API",
+  "name": "nodejs_mvc_api",
   "version": "1.0.0",
   "description": "An example on how an MVC API is done on nodeJS",
   "main": "server.js",
