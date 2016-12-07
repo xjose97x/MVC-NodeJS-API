@@ -1,12 +1,20 @@
 {
-  "name": "anubisapi",
+  "name": "nodeJS MVC API",
   "version": "1.0.0",
-  "description": "API for Anubis project",
+  "description": "An example on how an MVC API is done on nodeJS",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "4.4.7"
+  },
   "author": "Jose Escudero",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.8"
+  }
 }
